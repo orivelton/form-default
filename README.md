@@ -1,2 +1,2 @@
-# form-default
-Formulário com Bootstrap, Ajax e com envio com Php
+# Standard Contact Form
+Form with Bootstrap, Ajax and sending with Php
