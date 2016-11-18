@@ -14,9 +14,6 @@ $(function() {
             var message = $("#message").val();
             var firstName = nome; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
-            if (firstName.indexOf(' ') >= 0) {
-                //firstName = mo,e.split(' ').slice(0, -1).join(' ');
-            }
             $.ajax({
                 url: "././mail/contact_me.php",
                 type: "POST",
